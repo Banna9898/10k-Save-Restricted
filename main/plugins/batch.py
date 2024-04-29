@@ -31,7 +31,7 @@ ids = []
     await event.client.send_message(event.chat_id, msg) 
 '''
 
-@gagan.on(events.NewMessage(incoming=True, pattern='/rohit'))
+@gagan.on(events.NewMessage(incoming=True, pattern='/Banna'))
 async def _batch(event):
     s = False
     if f'{event.sender_id}' in batch:
@@ -122,7 +122,7 @@ async def run_batch(userbot, client, sender, countdown, link):
             await get_bulk_msg(userbot, client, sender, link, integer)
             protection = await client.send_message(sender, f"Sleeping for `{timer}` seconds to avoid Floodwaits and Protect account!")
             await countdown.edit(count_down, 
-                                 buttons=[[Button.url("Join Channel", url="https://t.me/galib_shayar")]])
+                                 buttons=[[Button.url("Join Channel", url="https://t.me/jay_hind_568")]])
             await asyncio.sleep(timer)
             await protection.delete()
         except IndexError as ie:
@@ -158,7 +158,7 @@ async def run_batch(userbot, client, sender, countdown, link):
 
 C = "/cancel"
 START_PIC = "https://telegra.ph/file/4ec9397a91e98149c256d.jpg"
-TEXT = "👋 Hi, This is 'Paid Restricted Content Saver' bot Made with ❤️ by __** @Oye_oo **__."
+TEXT = "👋 Hi, This is 'Paid Restricted Content Saver' bot Made with ❤️ by __** Riskψ多anna✨ 🥷 **__."
 
 @gagan.on(events.NewMessage(pattern=f"^{C}"))
 async def start_command(event):
@@ -166,7 +166,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("Cancel", data="cancel"),
          Button.inline("Cancel", data="cancel")],
-        [Button.url("Join Channel", url="https://t.me/galib_shayar")]
+        [Button.url("Join Channel", url="https://t.me/jay_hind_568")]
     ]
 
     # Sending photo with caption and buttons
